@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+
+.fundtrnsbody{
+	
+    top: 5px;
+   
+    width: 600px;
+}
+
+.fundtrnsbodybtn{
+	position: relative;
+    font-size: 40px;
+    background: white;
+    padding: 7px 15px;
+    top: 120px;
+    margin: 20px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    left: 50%;
+    box-shadow: 0px 8px 22px -12px rgba(0, 0, 0, 64);
+    transition: 0.8s;
+    background-size: 4000px;
+}
+
+.fundtrnsbodybtn:hover{
+   
+    background: black;
+    background-size: 400px;
+    color: rgb(245, 245, 255);
+
+
+}

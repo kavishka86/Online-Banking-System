@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+
+.form{
+	position: relative;
+    width: 500PX;
+    height: 450PX;
+    top:100px;
+    left: 250px;
+    border-radius: 20PX;
+    padding: 30PX;
+    text-align: center;
+	
+}
+
+.form h2{
+	font-size:17px;
+}
+
+input{
+	 padding: 7px;
+    border-top: none;
+    background-color: rgba(19, 2, 255, 0.178);
+    border-bottom: 7px red;
+    border-radius: 5px;
+    font-size:17px;
+}
+
+.submit{
+
+	height:40px;
+	width:100px;
+	margin-top: 7px;
+    transition: 1s;
+    background-color: rgb(2 32 255 / 74%);
+    border: none;
+	border-radius:10px;
+}
+
+.submit:hover{
+	transform: scale(1.1);
+    background-color: rgb(26 26 240);
+	color:white;
+}
+
+.title{
+	font-size: 50px;
+}
+
+.subtitle{
+	font-size: 17px;
+	margin:7px;
+}
+
